@@ -10,7 +10,7 @@ After tearing my own ACL, one of the hardest parts about doing physical therapy 
 # How it's Built
 The LSM9DS1 accelerometer uses I2C, so using the SCL and SDA pins are all you need to get your data. Wiring them to the Arduino's serial clock and data pins will enable your data stream and wiring it to 3.3V and ground will ensure a safe operating voltage. Each LED is wired to a digital output pin. The five LEDs and the accelerometer were stuck into a strip of cardboard that wraps around the front of the users knee. All the connection points not on the arduino itself were soldered. Here is a link to the demo of the final project.
 https://www.youtube.com/watch?v=57nDac-gl3w&feature=youtu.be
-
+The Jpeg files in the repository are the design plans I made before implementing my project. The plans are more complicated than the actual implementation, but the main design holds and is fully functional.
 
 
 
